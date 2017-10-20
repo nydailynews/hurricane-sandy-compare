@@ -3,38 +3,54 @@
 {% block content %}
 
 <div class="intro">
-    <h2></h2>
+    <h2>5 years after sandy</h2>
     
-    <h1></h1>
+    <h1>How does Hurricane Sandy compare to other major storms</h1>
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=">Tweet</a></li>
-            <li class="ra-share-e"> <a href="mailto:?subject=&body=">email</a> </li>
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=MTA Budget: Where the money comes from&url=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/&via=NYDNi&related=NYDNTransit">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=MTA Budget: Where the money comes from&body=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/">email</a> </li>
         </ul>
     </div>
 
-    <p class="byline">By </p>
+    <p class="byline">By Kelli R. Parker</p>
 
-    <p id="datestamp" class="stamp">Last updated {{''|last_update()}}</p>
+    <p id="datestamp" class="stamp">Published {{''|last_update()}}</p>
+
+    <p>So far in 2017, Hurricanes Harvey, Irma and Maria have left Gulf Coast and the Caribbean devastated. Five years ago, Superstorm Sandy ran roughshod over the Jamaica, Haiti, and Cuba before skirting up the east coast. The worst for the U.S. came when Sandy shifted west and barreled down on the Mid-Atlantic, particularly New York and New Jersey.</p>
+
+    <p>aSndy was the deadliest and most destructive storm of the 2012 Atlantic hurricane season. Below, you can see how it compares to the 2017 disasters and a few notable cyclones from years past.</p>
 
 </div>
 
-{% include 'includes/ad02.html' %}
-
-<section>
-</section>
-
-    <p class="caption">Interactive by Joe Murphy and Kelli R. Parker</p>
-
 <p class="latest-news">
-    The latest in <a href="http://www.nydailynews.com/tags/russia">Daily News Trump-Russia news</a>: 
+    THE LATEST <a href="http://www.nydailynews.com/tags/hurricane-sandy"></a>: 
     <strong id="latest-news-headline"></strong>
 </p>
-<noscript>
-    <p>
-        <strong>{{response.latest|safe}}</strong>
-    </p>
-</noscript>
+
+<script onload="document.getElementById('latest-news-headline').innerHTML=hed;" src="http://interactive.nydailynews.com/project/hurricane-sandy-comparison/tag-mta-1.js"></script>
+
+{% include 'includes/ad02.html' %}
+
+<section id="storms">
+    <ul>
+        <li>
+            <img src="static/img/maria.jpg">
+            <hr>
+            <div style="width: 275px;"><h3>Hurricane Maria</h3> <h5>2017</h5></div>
+            <h4>Catastrophe for Puerto Rico</h4>
+            <p>CATEGORY:</p>
+            <p>EFFECTED REGION:</p>
+            <p>RAINFALL:</p>
+        </li>
+    </ul>
+{% include 'includes/ad03.html' %}
+</section>
+
+<div>
+    <p class="caption">Sources: NASA, USGS, NHC, NOAA, GDACS, AccuWeather, CNBC, Bloomberg</p>
+    <p class="caption">Interactive by Kelli R. Parker</p>
+</div>
 
 {% endblock content %}

@@ -12,8 +12,8 @@ app = Flask(__name__)
 app.debug = True
 
 page = {
-    'title': 'How does Hurricane Sandy compare to other storms?',
-    'title_twitter': 'Comparing Hurricane Sandy to other storms'.decode('utf-8'),
+    'title': 'Five years later, how does Hurricane Sandy compare to other major storms?',
+    'title_twitter': 'Comparing Hurricane Sandy to other major storms five years later'.decode('utf-8'),
     'url': 'http://interactive.nydailynews.com/project/hurricane-sandy-comparison/',
     'description': '',
     'author': '"Interactive Project", "Kelli R. Parker"',

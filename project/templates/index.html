@@ -3,65 +3,193 @@
 {% block content %}
 
 <div class="intro">
-    <h2>5 years after sandy</h2>
-    
-    <h1>How does Hurricane Sandy compare to other major storms</h1>
-    <div>
-        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=MTA Budget: Where the money comes from&url=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/&via=NYDNi&related=NYDNTransit">Tweet</a></li>
-            <li class="ra-share-e"> <a href="mailto:?subject=MTA Budget: Where the money comes from&body=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/">email</a> </li>
-        </ul>
-    </div>
+	<h2>5 years after sandy</h2>
+	
+	<h1>How does Hurricane Sandy compare to other major storms</h1>
+	<div>
+		<ul class="ra-share" id="ra-share-top" style="text-align: center;">
+			<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/">facebook</a> </li>
+			<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=MTA Budget: Where the money comes from&url=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/&via=NYDNi&related=NYDNTransit">Tweet</a></li>
+			<li class="ra-share-e"> <a href="mailto:?subject=MTA Budget: Where the money comes from&body=http://interactive.nydailynews.com/project/hurricane-sandy-comparison/">email</a> </li>
+		</ul>
+	</div>
 
-    <p class="byline">By Kelli R. Parker</p>
+	<p class="byline">By Kelli R. Parker</p>
 
-    <p id="datestamp" class="stamp">Published {{''|last_update()}}</p>
+	<p id="datestamp" class="stamp">Published {{''|last_update()}}</p>
 
-    <p>So far in 2017, Hurricanes Harvey, Irma and Maria have left Gulf Coast and the Caribbean devastated. Five years ago, Superstorm Sandy ran roughshod over the Jamaica, Haiti, and Cuba before skirting up the east coast. The worst for the U.S. came when Sandy shifted west and barreled down on the Mid-Atlantic, particularly New York and New Jersey.</p>
+	<p>So far in 2017, Hurricanes Harvey, Irma and Maria have left Gulf Coast and the Caribbean devastated. Five years ago, Superstorm Sandy ran roughshod over the Jamaica, Haiti, and Cuba before skirting up the east coast. The worst for the U.S. came when Sandy shifted west and barreled down on the Mid-Atlantic, particularly New York and New Jersey.</p>
 
-    <p>aSndy was the deadliest and most destructive storm of the 2012 Atlantic hurricane season. Below, you can see how it compares to the 2017 disasters and a few notable cyclones from years past.</p>
+	<p>Sandy was the deadliest and most destructive storm of the 2012 Atlantic hurricane season. Below, you can see how it compares to the 2017 disasters and a few notable cyclones from years past.</p>
 
 </div>
 
 <p class="latest-news">
-    THE LATEST <a href="http://www.nydailynews.com/tags/hurricane-sandy"></a>: 
-    <strong id="latest-news-headline"></strong>
+	THE LATEST <a href="http://www.nydailynews.com/tags/hurricane-sandy"></a>: 
+	<strong id="latest-news-headline"></strong>
 </p>
 
 <script onload="document.getElementById('latest-news-headline').innerHTML=hed;" src="http://interactive.nydailynews.com/project/hurricane-sandy-comparison/tag-mta-1.js"></script>
 
 <!-- {% include 'includes/ad02.html' %} -->
 
+<section id="sandy">
+	<img src="static/img/sandy.jpg">
+	<div style="width: 275px;"><h3>Hurricane Sandy</h3> <h5>2012</h5></div>
+	<h4>An ongoing catastrophe for the people of Puerto Rico</h4>
+
+			<div class="icons">
+				<img class="category" src="static/img/category-5.png">
+				<img src="static/img/wind.png"><p>173 mph</p>
+			</div>
+
+			<div class="data">
+				<p><span>Size Across:</span> 300 miles</p>
+				<p><span>Hardest Hit:</span> Caribbean</p>
+				<p><span>Rainfall Total:</span> 37.9 inches</p>
+				<p><span>Storm Surge:</span> 3.3 feet</p>
+				<p><span>Death Toll:</span> 94</p>
+				<p><span>Damage:</span> To be determined</p>
+			</div>
+		</li>
+	</ul>
+</section>
+
 <section id="storms">
-    <ul>
-        <li>
-            <img src="static/img/maria.jpg">
-            <hr>
-            <div style="width: 275px;"><h3>Hurricane Maria</h3> <h5>2017</h5></div>
-            <h4>Catastrophe for Puerto Rico</h4>
+	<ul>
+		<li>
+			<img src="static/img/maria.jpg">
+			<hr>
+			<div style="width: 275px;"><h3>Hurricane Maria</h3> <h5>2017</h5></div>
+			<h4>An ongoing catastrophe for the people of Puerto Rico</h4>
 
-            <div class="icons">
-                <img class="category" src="static/img/category-5.png">
-                <img src="static/img/wind.png"><p>173 mph</p>
-            </div>
+			<div class="icons">
+				<img class="category" src="static/img/category-5.png">
+				<img src="static/img/wind.png"><p>173 mph</p>
+			</div>
 
-            <div class="data">
-                <p><span>SIZE ACROSS:</span> 300 miles</p>
-                <p><span>EFFECTED REGION:</span> Caribbean</p>
-                <p><span>RAINFALL TOTAL:</span> 37.9 inches</p>
-                <p><span>DEATH TOLL:</span> 94*</p>
-                <p><span>DAMAGE:</span> To be determined</p>
-            </div>
-        </li>
-    </ul>
+			<div class="data">
+				<p><span>Size Across:</span> 300 miles</p>
+				<p><span>Hardest Hit:</span> Caribbean</p>
+				<p><span>Rainfall Total:</span> 37.9 inches</p>
+				<p><span>Storm Surge:</span> 3.3 feet</p>
+				<p><span>Death Toll:</span> 94</p>
+				<p><span>Damage:</span> To be determined</p>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/img/irma.jpg">
+			<hr>
+			<div style="width: 275px;"><h3>Hurricane Irma</h3> <h5>2017</h5></div>
+			<h4>The longest-lived Atlantic hurricane since 2004</h4>
+
+			<div class="icons">
+				<img class="category" src="static/img/category-5.png">
+				<img src="static/img/wind.png"><p>185 mph</p>
+			</div>
+
+			<div class="data">
+				<p><span>Size Across:</span> 800 miles</p>
+				<p><span>Hardest Hit:</span> Caribbean, southern U.S.</p>
+				<p><span>Rainfall Total:</span> 15.98 inches</p>
+				<p><span>Storm Surge:</span> 10.2 feet</p>
+				<p><span>Death Toll:</span> 134</p>
+				<p><span>Damage:</span> $100 billion +</p>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/img/harvey.jpg">
+			<hr>
+			<div style="width: 275px;"><h3>Hurricane Harvey</h3> <h5>2017</h5></div>
+			<h4>Unfathomable amounts of rainwater in southern Texas</h4>
+
+			<div class="icons">
+				<img class="category" src="static/img/category-4.png">
+				<img src="static/img/wind.png"><p>132 mph</p>
+			</div>
+
+			<div class="data">
+				<p><span>Size Across:</span> 200 miles</p>
+				<p><span>Hardest Hit:</span> Texas, the Gulf coast</p>
+				<p><span>Rainfall Total:</span> 64.58 inches</p>
+				<p><span>Storm Surge:</span> 5.3 feet</p>
+				<p><span>Death Toll:</span> 90</p>
+				<p><span>Damage:</span> To be determined</p>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/img/irene.jpg">
+			<hr>
+			<div style="width: 275px;"><h3>Hurricane Irene</h3> <h5>2011</h5></div>
+			<h4>Tri-state area battered with wind and inland flooding</h4>
+
+			<div class="icons">
+				<img class="category" src="static/img/category-3.png">
+				<img src="static/img/wind.png"><p>120 mph</p>
+			</div>
+
+			<div class="data">
+				<p><span>Size Across:</span> 599 miles</p>
+				<p><span>Hardest Hit:</span> Eastern U.S.</p>
+				<p><span>Rainfall Total:</span> 15.74 inches</p>
+				<p><span>Storm Surge:</span> 7.54 feet</p>
+				<p><span>Death Toll:</span> 61</p>
+				<p><span>Damage:</span> $18.2 billion</p>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/img/katrina.jpg">
+			<hr>
+			<div style="width: 275px;"><h3>Hurricane Katrina</h3> <h5>2005</h5></div>
+			<h4>80% of the city flooded after the levees failed</h4>
+
+			<div class="icons">
+				<img class="category" src="static/img/category-5.png">
+				<img src="static/img/wind.png"><p>175 mph</p>
+			</div>
+
+			<div class="data">
+				<p><span>Size Across:</span> 397 miles</p>
+				<p><span>Hardest Hit:</span> New Orleans, Louisiana</p>
+				<p><span>Rainfall Total:</span> 10 inches</p>
+				<p><span>Storm Surge:</span> 29.5 feet</p>
+				<p><span>Death Toll:</span> 1833</p>
+				<p><span>Damage:</span> $136 billion</p>
+			</div>
+		</li>
+
+		<li>
+			<img src="static/img/andrew.jpg">
+			<hr>
+			<div style="width: 275px;"><h3>Hurricane Andrew</h3> <h5>1992</h5></div>
+			<h4>The compact storm destroyed southern Florida</h4>
+
+			<div class="icons">
+				<img class="category" src="static/img/category-5.png">
+				<img src="static/img/wind.png"><p>175 mph</p>
+			</div>
+
+			<div class="data">
+				<p><span>Size Across:</span> 31 miles</p>
+				<p><span>Hardest Hit:</span> South Florida</p>
+				<p><span>Rainfall Total:</span> 11.9 inches</p>
+				<p><span>Storm Surge:</span> 16.9 feet</p>
+				<p><span>Death Toll:</span> 65</p>
+				<p><span>Damage:</span> $46.6 billion</p>
+			</div>
+		</li>
+	</ul>
 <!-- {% include 'includes/ad03.html' %} -->
 </section>
 
-<div>
-    <p class="caption">* Data as of October 17, 2017</p>
-    <p class="caption">Sources: NASA, USGS, NHC, NOAA, GDACS, AccuWeather, CNBC, Bloomberg</p>
-    <p class="caption">Interactive by Kelli R. Parker</p>
+<div class="intro">
+	<p class="caption">Data as of October 23, 2017</p>
+	<p class="caption">Sources: NASA, USGS, NHC, NOAA, GDACS, AccuWeather, CNBC, Bloomberg, FEMA; dollar amounts have been adjusted for inflation</p>
+	<p class="caption">Interactive by Kelli R. Parker</p>
 </div>
 
 {% endblock content %}

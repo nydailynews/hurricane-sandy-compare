@@ -116,7 +116,42 @@ div.ad > span {
 
 /*  SECTIONS  */
 
-section#sandy {}
+section#sandy {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.sandy-1 {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+section#sandy h3 {
+	font: 50px "Open Sans", sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-align: left;
+}
+
+section#sandy h4 {
+	font: bold 14px "Open Sans", sans-serif;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #39b54a;
+	margin: unset;
+	margin-bottom: 20px;
+}
+
+section#sandy div h5 {
+	float: right;
+	font-size: 25px;
+	margin-top: -31px;
+}
+ #sandy div.data {
+ 	text-align: left;
+ }
+
 
 section#storms {
 	width: 100%;

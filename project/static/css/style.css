@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-	background-color: green;
+	background-color: #39b54a;
 	color: white;
 	width: 275px;
 	margin: 15px auto;
@@ -57,8 +57,8 @@ h4 {
 	font: bold 14px "Open Sans", sans-serif;
 	line-height: 22px;
 	text-transform: uppercase;
-	color: green;
-	margin-top: 20px;
+	color: #39b54a;
+	margin: 20px auto;
 }
 
 main p {
@@ -88,10 +88,6 @@ hr {
 	max-width: 900px;
 	margin: 30px auto;
 	padding: 12px;
-}
-
-q {
-	quotes: '\201C' '\201D';
 }
 
 img {
@@ -167,6 +163,34 @@ section#storms div h5 {
 
 section#storms ul li p {
 	text-align: left;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.icons p {
+	font: bold 20px "Open Sans Condensed", sans-serif;
+	float: right;
+	color: #808080;
+	padding-top: 22px;
+	margin-top: unset;
+}
+
+.category {
+	margin-right: 30px;
+}
+
+.data p {
+	font: 17px "Open Sans", sans-serif;
+	line-height: 27px;
+	margin-top: unset;
+}
+
+.data span {
+	font: bold 17px "Open Sans Condensed", sans-serif;
 }
 
 /* HANDHELD-SPECIFIC */

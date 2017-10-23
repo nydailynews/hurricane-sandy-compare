@@ -31,7 +31,7 @@
 
 <script onload="document.getElementById('latest-news-headline').innerHTML=hed;" src="http://interactive.nydailynews.com/project/hurricane-sandy-comparison/tag-mta-1.js"></script>
 
-{% include 'includes/ad02.html' %}
+<!-- {% include 'includes/ad02.html' %} -->
 
 <section id="storms">
     <ul>
@@ -40,15 +40,26 @@
             <hr>
             <div style="width: 275px;"><h3>Hurricane Maria</h3> <h5>2017</h5></div>
             <h4>Catastrophe for Puerto Rico</h4>
-            <p>CATEGORY:</p>
-            <p>EFFECTED REGION:</p>
-            <p>RAINFALL:</p>
+
+            <div class="icons">
+                <img class="category" src="static/img/category-5.png">
+                <img src="static/img/wind.png"><p>173 mph</p>
+            </div>
+
+            <div class="data">
+                <p><span>SIZE ACROSS:</span> 300 miles</p>
+                <p><span>EFFECTED REGION:</span> Caribbean</p>
+                <p><span>RAINFALL TOTAL:</span> 37.9 inches</p>
+                <p><span>DEATH TOLL:</span> 94*</p>
+                <p><span>DAMAGE:</span> To be determined</p>
+            </div>
         </li>
     </ul>
-{% include 'includes/ad03.html' %}
+<!-- {% include 'includes/ad03.html' %} -->
 </section>
 
 <div>
+    <p class="caption">* Data as of October 17, 2017</p>
     <p class="caption">Sources: NASA, USGS, NHC, NOAA, GDACS, AccuWeather, CNBC, Bloomberg</p>
     <p class="caption">Interactive by Kelli R. Parker</p>
 </div>

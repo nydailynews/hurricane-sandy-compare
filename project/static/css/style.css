@@ -118,40 +118,46 @@ div.ad > span {
 
 section#sandy {
 	width: 100%;
-	margin: auto;
-	text-align: center;
+	height: auto;
 }
 
-.sandy-1 {
-	display: inline-block;
-	margin-left: 50px;
+section#sandy ul {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+section#sandy ul li {
+	width: 400px;
 }
 
 section#sandy h3 {
-	font: 50px "Open Sans", sans-serif;
+	font: 44px "Open Sans", sans-serif;
+	line-height: 50px;
 	text-transform: uppercase;
+	margin: 10px auto;
 	color: black;
 	text-align: left;
-}
-
-section#sandy h4 {
-	font: bold 14px "Open Sans", sans-serif;
-	line-height: 22px;
-	text-transform: uppercase;
-	color: #39b54a;
-	margin: unset;
-	margin-bottom: 20px;
 }
 
 section#sandy div h5 {
 	float: right;
 	font-size: 25px;
-	margin-top: -31px;
+	margin-top: -33px;
 }
- #sandy div.data {
- 	text-align: left;
- }
 
+section#sandy ul li p {
+	text-align: left;
+}
 
 section#storms {
 	width: 100%;

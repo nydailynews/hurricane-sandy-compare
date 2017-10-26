@@ -20,10 +20,10 @@ page = {
     'datestamp': '2017-10-',
     'keywords': 'Hurricane Sandy, Hurrican Maria, Hurricane Irma, Hurricane Harvey, Hurricane Katrina, Hurricane Irene',
     'keywords_array': '"hurricane sandy","hurricane harvey","hurricanes","hurricane katrina","hurricane irma"',
-    'shareimg': '',
+    'shareimg': 'hurricane-harvey-animation.gif',
     'sharevideo': '',
-    'shareimg_static': '',
-    'shareimgdesc': '',
+    'shareimg_static': 'hurricane-sandy-from-space.jpg',
+    'shareimgdesc': 'A photo of Hurricane Sandy from space.',
 }
 
 with app.app_context():

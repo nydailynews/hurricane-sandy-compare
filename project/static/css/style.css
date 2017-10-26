@@ -141,8 +141,8 @@ div.ad > span {
 
 	#sandy ul li {
 		width: 100%;
-		margin: auto;
-		max-width: 1000px;
+		margin: 40px auto;
+		max-width: 915px;
 		list-style-type: none;
 	}
 
@@ -152,7 +152,7 @@ div.ad > span {
 	}
 
 	#sandy ul li div.icons {
-		margin-bottom: 32px;
+		margin-bottom: 17px;
 		align-items: normal;
 	}
 
@@ -231,7 +231,7 @@ div.ad > span {
 .data p {
 	font: 17px "Open Sans", sans-serif;
 	line-height: 27px;
-	margin-top: unset;
+	margin-top: 0;
 }
 
 .data span {
@@ -370,9 +370,31 @@ div.ad > span {
 		border: solid 1px black;
 	}
 
-	#sandy ul li div.data {
-		columns: 2;
-		width: 50%;
+	#sandy ul li div {
+		columns: unset;
+		width: unset;
 	}
 
+	#sandy ul li div.data {
+		columns: 2;
+	}
+
+}
+
+/* IE10+ CSS styles go here */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#sandy ul li div {
+		columns: 1;
+		width: 100%;
+	}
+
+	#sandy ul li div.icons {
+		columns: 1;
+		width: 100%;
+	}
+
+	#sandy ul li div.data {
+		columns: 1;
+		width: 100%;
+	}
 }

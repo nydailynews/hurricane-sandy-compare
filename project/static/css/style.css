@@ -388,6 +388,10 @@ div.ad > span {
 		width: 50%;
 	}
 
+	#sandy ul li div.hed {
+		width: 100%;
+	}
+
 	#sandy ul li div.icons {
 		columns: 1;
 		width: 100%;
